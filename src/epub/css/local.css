@@ -32,9 +32,24 @@ footer{
 }
 /* End all letters */
 
+/* Appendicies */
+#appendix-7-b > p:nth-child(6),
+#appendix-7-b > p:nth-child(7){
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#appendix-7-b > p:nth-child(8),
+#appendix-7-b > p:nth-child(10){
+	font-style: italic;
+	text-align: center;
+}
+/* End appendicies */
+
 /* Elision */
 p.elision{
 	margin: .5em;
 	margin-left: 1em;
 }
+
 /* End eleision */
