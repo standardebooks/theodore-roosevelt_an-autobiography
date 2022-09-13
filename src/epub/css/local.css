@@ -52,4 +52,8 @@ p.elision{
 	margin-left: 1em;
 }
 
+#chapter-15 p.elision{
+	margin: .5em;
+	text-align: center;
+}
 /* End eleision */
