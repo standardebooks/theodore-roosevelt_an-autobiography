@@ -16,7 +16,7 @@
 
 #chapter-3 tr:first-child td,
 #chapter-9 tr:first-child{
-padding-top: 0;
+	padding-top: 0;
 }
 
 #chapter-3 tr:last-child td,
