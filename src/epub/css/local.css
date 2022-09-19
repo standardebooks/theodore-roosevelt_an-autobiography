@@ -53,12 +53,6 @@
 	font-style: italic;
 }
 
-#chapter-3 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-#chapter-9 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
-
 #chapter-3 [epub|type~="z3998:stage-direction"]::before,
 #chapter-9 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
@@ -102,16 +96,14 @@ footer{
 /* End all letters */
 
 /* Appendicies */
-#appendix-7-b > p:nth-child(6),
-#appendix-7-b > p:nth-child(7){
+#appendix-7-b > p:nth-child(5),
+#appendix-7-b > p:nth-child(6){
 	font-variant: small-caps;
-	text-align: center;
 }
 
-#appendix-7-b > p:nth-child(8),
-#appendix-7-b > p:nth-child(10){
+#appendix-7-b > p:nth-child(7),
+#appendix-7-b > p:nth-child(9){
 	font-style: italic;
-	text-align: center;
 }
 /* End appendicies */
 
@@ -123,6 +115,6 @@ p.elision{
 
 #chapter-15 p.elision{
 	margin: .5em;
-	text-align: center;
+	margin-left: 3em;
 }
 /* End eleision */
