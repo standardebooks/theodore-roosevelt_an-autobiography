@@ -97,20 +97,29 @@ footer{
 
 /* Specific letters */
 #chapter-7 blockquote > [epub|type~="z3998:letter"]{
-	margin-left: 0em;
-	margin-right: 0em;
+	margin-left: 0;
+	margin-right: 0;
 }
 /* End specific letters */
 
 /* Appendicies */
-#appendix-7-b > p:nth-child(5),
-#appendix-7-b > p:nth-child(6){
+#appendix-7-b > p:nth-child(6),
+#appendix-7-b > p:nth-child(7){
 	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
 }
 
-#appendix-7-b > p:nth-child(7),
-#appendix-7-b > p:nth-child(9){
+#appendix-7-b > p:nth-child(8),
+#appendix-7-b > p:nth-child(10){
 	font-style: italic;
+	text-align: center;
+	text-indent: 0;
+}
+
+#appendix-7-b blockquote{
+	margin-left: 0;
+	margin-right: 0;
 }
 /* End appendicies */
 
