@@ -95,6 +95,13 @@ footer{
 }
 /* End all letters */
 
+/* Specific letters */
+#chapter-7 blockquote > [epub|type~="z3998:letter"]{
+	margin-left: 0em;
+	margin-right: 0em;
+}
+/* End specific letters */
+
 /* Appendicies */
 #appendix-7-b > p:nth-child(5),
 #appendix-7-b > p:nth-child(6){
