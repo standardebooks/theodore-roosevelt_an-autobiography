@@ -124,12 +124,7 @@ footer{
 /* End appendicies */
 
 /* Elision */
-p.elision{
-	margin: .5em;
-	margin-left: 1em;
-}
-
-#chapter-15 p.elision{
+span.elision{
 	margin: .5em;
 	margin-left: 3em;
 }
