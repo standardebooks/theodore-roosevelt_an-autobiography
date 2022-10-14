@@ -104,7 +104,6 @@ footer{
 
 /* Appendicies */
 [epub|type~="z3998:subchapter"] + [epub|type~="z3998:subchapter"]{
-	background-color: teal;
 	break-before: page;
 }
 
