@@ -7,6 +7,10 @@
 	margin: 1em;
 }
 
+#chapter-1 table hr{
+	margin: 0;
+}
+
 #chapter-3 table,
 #chapter-9 table{
 	border-collapse: collapse;
