@@ -52,6 +52,7 @@
 		<meta property="se:name.person.full-name" refines="#author">Theodore Roosevelt Jr.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Theodore_Roosevelt</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79027239</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">John Singer Sargent</dc:contributor>
 		<meta property="file-as" refines="#artist">Sargent, John Singer</meta>
