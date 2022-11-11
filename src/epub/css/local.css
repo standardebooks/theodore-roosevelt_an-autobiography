@@ -133,3 +133,10 @@ span.elision{
 	margin-left: 3em;
 }
 /* End eleision */
+
+/* Lists */
+ul{
+	list-style-type: none;
+	margin: 1em 0;
+}
+/* End lists */
