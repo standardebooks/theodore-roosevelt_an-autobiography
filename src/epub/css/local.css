@@ -107,10 +107,6 @@ footer{
 /* End specific letters */
 
 /* Appendicies */
-[epub|type~="z3998:subchapter"] + [epub|type~="z3998:subchapter"]{
-	break-before: page;
-}
-
 #appendix-7-b > p:nth-child(6),
 #appendix-7-b > p:nth-child(7){
 	font-variant: small-caps;
