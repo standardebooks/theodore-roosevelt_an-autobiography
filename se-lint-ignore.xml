@@ -6,6 +6,10 @@
 			<reason>'hr/' tags are used in the table to indicate the values in the rows above are being summed.</reason>
 		</ignore>
 		<ignore>
+			<code>t-030</code>
+			<reason>"DR" in the table refers to "debit record" (as in accounting).</reason>
+		</ignore>
+		<ignore>
 			<code>t-042</code>
 			<reason>Right double quotation marks are used to represent ditto marks in table.</reason>
 		</ignore>
