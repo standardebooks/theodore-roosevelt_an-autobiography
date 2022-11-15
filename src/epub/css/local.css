@@ -10,70 +10,73 @@
 #chapter-1 table hr{
 	margin: 0;
 }
+/* End tables */
 
-#chapter-3 table,
-#chapter-9 table{
+/* All drama */
+[epub|type~="z3998:drama"] table,
+table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
 }
 
-#chapter-3 tr:first-child td,
-#chapter-9 tr:first-child{
+[epub|type~="z3998:drama"] tr:first-child td{
 	padding-top: 0;
 }
 
-#chapter-3 tr:last-child td,
-#chapter-9 tr:last-child td{
+[epub|type~="z3998:drama"] tr:last-child td{
 	padding-bottom: 0;
 }
 
-#chapter-3 td,
-#chapter-9 td{
+[epub|type~="z3998:drama"] td{
 	padding: .5em;
 	vertical-align: top;
 }
 
-#chapter-3 td:last-child,
-#chapter-9 td:last-child{
+[epub|type~="z3998:drama"] td:last-child{
 	padding-right: 0;
 }
 
-#chapter-3 td:first-child,
-#chapter-9 td:first-child{
+[epub|type~="z3998:drama"] td:first-child{
 	padding-left: 0;
 }
 
-#chapter-3 td[epub|type~="z3998:persona"],
-#chapter-9 td[epub|type~="z3998:persona"]{
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
 	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
 }
 
-#chapter-3 [epub|type~="z3998:stage-direction"],
-#chapter-9 [epub|type~="z3998:stage-direction"]{
+[epub|type~="z3998:stage-direction"]{
 	font-style: italic;
 }
 
-#chapter-3 [epub|type~="z3998:stage-direction"]::before,
-#chapter-9 [epub|type~="z3998:stage-direction"]::before{
+[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
+em [epub|type~="z3998:persona"],
+i [epub|type~="z3998:persona"]{
+	font-style: normal;
+}
+
+[epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
 }
 
-#chapter-3 [epub|type~="z3998:stage-direction"]::after,
-#chapter-9 [epub|type~="z3998:stage-direction"]::after{
+[epub|type~="z3998:stage-direction"]::after{
 	content: ")";
 	font-style: normal;
 }
 
-#chapter-3 [epub|type~="z3998:persona"],
-#chapter-9 [epub|type~="z3998:persona"]{
+[epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
-/* End tables */
+
+section[epub|type~="z3998:scene"] > p{
+	margin: 1em auto;
+	width: 75%;
+}
+/* End all drama */
 
 /* All letters */
 [epub|type~="z3998:letter"] header{
