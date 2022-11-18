@@ -11,6 +11,11 @@
 	padding: 1em;
 }
 
+#chapter-1 blockquote p:nth-child(1),
+#chapter-1 blockquote p:nth-child(2){
+	font-style: italic;
+}
+
 #chapter-1 table td:last-child{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
