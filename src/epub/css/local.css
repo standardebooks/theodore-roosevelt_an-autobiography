@@ -2,6 +2,11 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Tables */
+table td:last-child{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
 #chapter-1 table{
 	border: 1px solid;
 	margin: 1em;
