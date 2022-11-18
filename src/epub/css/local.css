@@ -2,6 +2,10 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Chapter 1 bill */
+#chapter-1 [epub|type~="z3998:signature"]{
+	text-align: right;
+}
+
 #chapter-1 blockquote{
 	border: 1px solid;
 	padding: 1em;
