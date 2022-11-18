@@ -1,7 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* Tables */
+/* Chapter 1 bill */
+#chapter-1 blockquote{
+	border: 1px solid;
+	padding: 1em;
+}
+
 #chapter-1 table td:last-child{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
@@ -11,14 +16,7 @@
 #chapter-1 tfoot tr:last-child td:last-child{
 	border-top: 1px solid;
 }
-/* End tables */
-
-/* Blockquote */
-#chapter-1 blockquote{
-	border: 1px solid;
-	padding: 1em;
-}
-/* End blockquote */
+/* End chapter 1 bill */
 
 /* All drama */
 [epub|type~="z3998:drama"] table{
