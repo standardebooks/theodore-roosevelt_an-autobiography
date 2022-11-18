@@ -6,14 +6,26 @@
 	text-align: right;
 }
 
-#chapter-1 blockquote{
+#chapter-1 > blockquote{
 	border: 1px solid;
 	padding: 1em;
 }
 
-#chapter-1 blockquote p:nth-child(1),
-#chapter-1 blockquote p:nth-child(2){
+#chapter-1 > blockquote > blockquote{
+	font-style: normal;
+}
+
+#chapter-1 > blockquote > p:nth-child(1){
 	font-style: italic;
+	text-align: right;
+}
+
+#chapter-1 > blockquote > p:nth-child(2){
+	font-style: italic;
+}
+
+#chapter-1 table{
+	padding: 1em;
 }
 
 #chapter-1 table td:last-child{
