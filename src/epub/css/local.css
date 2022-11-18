@@ -7,8 +7,8 @@ table td:last-child{
 	text-align: right;
 }
 
-#chapter-1 table tr:nth-child(13) td:last-child,
-#chapter-1 table tr:last-child td:last-child{
+#chapter-1 tfoot tr:first-child td:last-child,
+#chapter-1 tfoot tr:last-child td:last-child{
 	border-top: 1px solid;
 }
 
