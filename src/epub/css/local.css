@@ -119,11 +119,12 @@ footer{
 /* End appendicies */
 
 /* Elision */
-span.elision{
-	margin: .5em;
-	margin-left: 3em;
+.elision{
+	margin: 1em;
+	text-align: center;
+	text-indent: 0;
 }
-/* End eleision */
+/* End elision */
 
 /* Lists */
 ul{
