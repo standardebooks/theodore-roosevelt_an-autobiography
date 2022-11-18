@@ -7,13 +7,14 @@ table td:last-child{
 	text-align: right;
 }
 
+#chapter-1 table tr:nth-child(13) td:last-child,
+#chapter-1 table tr:last-child td:last-child{
+	border-top: 1px solid;
+}
+
 #chapter-1 table{
 	border: 1px solid;
 	margin: 1em;
-}
-
-#chapter-1 table hr{
-	margin: 0;
 }
 /* End tables */
 
