@@ -110,10 +110,6 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
-	text-indent: 0;
-}
-
 figure.full-page{
 	break-after: page;
 	break-before: page;
