@@ -56,11 +56,22 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79027239</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">John Singer Sargent</dc:contributor>
-		<meta property="file-as" refines="#artist">Sargent, John Singer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Singer_Sargent</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50019335</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ill</meta>
+		<dc:contributor id="artist-1">John Singer Sargent</dc:contributor>
+		<meta property="file-as" refines="#artist-1">Sargent, John Singer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-1">https://en.wikipedia.org/wiki/John_Singer_Sargent</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist-1">http://id.loc.gov/authorities/names/n50019335</meta>
+		<meta property="role" refines="#artist-1" scheme="marc:relators">art</meta>
+		<dc:contributor id="artist-2">Philip de László</dc:contributor>
+		<meta property="file-as" refines="#artist-2">László, Philip de</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-2">https://en.wikipedia.org/wiki/Philip_de_L%C3%A1szl%C3%B3</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist-2">http://id.loc.gov/authorities/names/no2004037532</meta>
+		<meta property="role" refines="#artist-2" scheme="marc:relators">art</meta>
+		<dc:contributor id="artist-3">Gari Melchers</dc:contributor>
+		<meta property="file-as" refines="#artist-3">Melchers, Gari</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-3">https://en.wikipedia.org/wiki/Gari_Melchers</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist-3">http://id.loc.gov/authorities/names/n83191741</meta>
+		<meta property="role" refines="#artist-3" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Dagny Wilson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wilson, Dagny</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
@@ -79,6 +90,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
