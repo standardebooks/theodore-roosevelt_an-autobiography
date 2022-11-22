@@ -6,22 +6,32 @@
 	text-align: right;
 }
 
-#chapter-1 > blockquote{
-	border: 1px solid;
-	padding: 1em;
-}
-
-#chapter-1 > blockquote > blockquote{
-	font-style: normal;
-}
-
-#chapter-1 > blockquote > p:nth-child(1){
+#chapter-1 blockquote header p{
 	font-style: italic;
+}
+
+#chapter-1 blockquote header p:first-of-type{
 	text-align: right;
 }
 
-#chapter-1 > blockquote > p:nth-child(2){
-	font-style: italic;
+@supports(display: flex){
+	#chapter-1 blockquote header{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#chapter-1 blockquote header p:first-of-type{
+		order: 2;
+	}
+}
+
+#chapter-1 blockquote header + p{
+	margin: 1em;
+}
+
+#chapter-1 blockquote{
+	border: 1px solid;
+	padding: 1em;
 }
 
 #chapter-1 table{
@@ -129,16 +139,18 @@ footer{
 /* End specific letters */
 
 /* Appendicies */
-#appendix-7-b > p:nth-child(6),
-#appendix-7-b > p:nth-child(7){
+#appendix-7-b blockquote:first-of-type header{
 	font-variant: small-caps;
-	text-align: center;
-	text-indent: 0;
 }
 
-#appendix-7-b > p:nth-child(8),
-#appendix-7-b > p:nth-child(10){
+#appendix-7-b blockquote:first-of-type header p + p{
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+.record-header{
 	font-style: italic;
+	margin: 2em auto 1em auto;
 	text-align: center;
 	text-indent: 0;
 }
@@ -160,6 +172,5 @@ footer{
 /* Lists */
 ul{
 	list-style-type: none;
-	margin: 1em 0;
 }
 /* End lists */
