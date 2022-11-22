@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/theodore-roosevelt/an-autobiography</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-11-22T20:00:23Z</dc:date>
+		<meta property="dcterms:modified">2022-11-22T20:00:23Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,14 +39,15 @@
 		<meta property="se:subject">Autobiography</meta>
 		<dc:description id="description">The autobiography of American President Theodore Roosevelt.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; is often ranked among the greatest presidents in American history. Roosevelt’s achievements as President include “trust-busting” many of the monopolistic corporations that dominated the economy and mistreated workers, settling a labor dispute to avert a national energy crisis, establishing the United States Forest Service and five National Parks, negotiating a treaty allowing the construction of the Panama Canal, and mediating the end of the Russo-Japanese war, winning the Nobel Peace Prize in the process. The presidency was only one of the numerous positions he held during his lifetime. He was also a cattle rancher in North Dakota, Colonel in the United States Army, Minority Leader of the New York State Assembly, New York City Police Commissioner, Assistant Secretary of the Navy, Governor of New York, and Vice President of the United States.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; is often ranked among the greatest presidents in American history. His achievements as President include “trust-busting” many of the monopolistic corporations that dominated the economy and mistreated workers, settling a labor dispute to avert a national energy crisis, establishing the United States Forest Service and five National Parks, negotiating a treaty allowing the construction of the Panama Canal, and mediating the end of the Russo-Japanese war while winning the Nobel Peace Prize in the process.&lt;/p&gt;
+			&lt;p&gt;But the presidency was only one of the many positions he held during his lifetime. He was also a cattle rancher in North Dakota, a colonel in the United States Army, the Minority Leader of the New York State Assembly, the New York City Police Commissioner, the Assistant Secretary of the Navy, the Governor of New York, and the Vice President of the United States.&lt;/p&gt;
 			&lt;p&gt;This autobiography provides insight into the unshakable beliefs and morals that made up the man who remains one of the most famous Americans in history.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3335</dc:source>
 		<dc:source>https://archive.org/details/theorooseauto00roosrich</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">214339</meta>
+		<meta property="se:reading-ease.flesch">51.21</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/An_Autobiography</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/theodore-roosevelt_an-autobiography</meta>
 		<dc:creator id="author">Theodore Roosevelt</dc:creator>
@@ -91,6 +92,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">B. Timothy Keith</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Keith, B. Timothy</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://astart.ca</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
