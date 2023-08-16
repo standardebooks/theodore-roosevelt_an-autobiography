@@ -6,7 +6,7 @@
 			<reason>"DR" in the table refers to "debit record" (as in accounting).</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
+			<code>y-019</code>
 			<reason>Right double quotation marks are used to represent ditto marks in table.</reason>
 		</ignore>
 	</file>
