@@ -52,7 +52,7 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/theodore-roosevelt_an-autobiography</meta>
 		<dc:creator id="author">Theodore Roosevelt</dc:creator>
 		<meta property="file-as" refines="#author">Roosevelt, Theodore</meta>
-		<meta property="se:name.person.full-name" refines="#author">Theodore Roosevelt Jr.</meta>
+		<meta property="se:name.person.full-name" refines="#author">Theodore Roosevelt</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Theodore_Roosevelt</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79027239</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
