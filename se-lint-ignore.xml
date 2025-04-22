@@ -5,10 +5,6 @@
 			<code>t-030</code>
 			<reason>"DR" in the table refers to "debit record" (as in accounting).</reason>
 		</ignore>
-		<ignore>
-			<code>y-019</code>
-			<reason>Right double quotation marks are used to represent ditto marks in table.</reason>
-		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
 		<ignore>
