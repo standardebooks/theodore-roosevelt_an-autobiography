@@ -126,6 +126,12 @@ footer{
 }
 /* End specific letters */
 
+/* Telegrams */
+.telegram{
+	font-variant: all-small-caps;
+}
+/* End all telegrams */
+
 /* Appendicies */
 #appendix-7-b blockquote:first-of-type header{
 	font-variant: small-caps;
