@@ -38,7 +38,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">n79027239</meta>
 		<meta property="schema:genre">Autobiography</meta>
-		<dc:abstract>The autobiography of American President Theodore Roosevelt.</dc:abstract>
+		<meta property="schema:abstract">The autobiography of American President Theodore Roosevelt.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; is often ranked among the greatest presidents in American history. His achievements as President include “trust-busting” many of the monopolistic corporations that dominated the economy and mistreated workers, settling a labor dispute to avert a national energy crisis, establishing the United States Forest Service and five National Parks, negotiating a treaty allowing the construction of the Panama Canal, and mediating the end of the Russo-Japanese war while winning the Nobel Peace Prize in the process.&lt;/p&gt;
 			&lt;p&gt;But the presidency was only one of the many positions he held during his lifetime. He was also a cattle rancher in North Dakota, a colonel in the United States Army, the Minority Leader of the New York State Assembly, the New York City Police Commissioner, the Assistant Secretary of the Navy, the Governor of New York, and the Vice President of the United States.&lt;/p&gt;
