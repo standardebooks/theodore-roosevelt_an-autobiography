@@ -31,7 +31,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">An Autobiography</dc:title>
 		<meta property="file-as" refines="#title">Autobiography, An</meta>
-		<dc:subject id="subject-1">Presidents -- United States -- Biography</dc:subject>
+		<dc:subject id="subject-1">Presidents--United States--Biography</dc:subject>
 		<dc:subject id="subject-2">Roosevelt, Theodore, 1858-1919</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85106470</meta>
