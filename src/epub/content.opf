@@ -68,12 +68,14 @@
 		<link href="https://id.loc.gov/authorities/names/n50019335.html" refines="#artist-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist-1" scheme="marc:relators">art</meta>
 		<dc:contributor id="artist-2">Philip de László</dc:contributor>
-		<meta property="file-as" refines="#artist-2">László, Philip de</meta>
+		<meta property="file-as" refines="#artist-2">de László, Philip</meta>
+		<meta property="schema:alternateName" refines="#artist-2">Philip Alexius László de Lombos</meta>
 		<link href="https://en.wikipedia.org/wiki/Philip_de_L%C3%A1szl%C3%B3" refines="#artist-2" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/no2004037532.html" refines="#artist-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist-2" scheme="marc:relators">art</meta>
 		<dc:contributor id="artist-3">Gari Melchers</dc:contributor>
 		<meta property="file-as" refines="#artist-3">Melchers, Gari</meta>
+		<meta property="schema:alternateName" refines="#artist-3">Julius Garibaldi Melchers</meta>
 		<link href="https://en.wikipedia.org/wiki/Gari_Melchers" refines="#artist-3" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n83191741.html" refines="#artist-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist-3" scheme="marc:relators">art</meta>
@@ -85,10 +87,12 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Brad Taylor</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Taylor, Brad</meta>
-		<link href="https://github.com/btaylor8/" refines="#producer-1" rel="schema:url"/>
+		<link href="https://github.com/btaylor8" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
